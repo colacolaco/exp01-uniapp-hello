@@ -1,7 +1,8 @@
-﻿# 实验01 · 移动开发环境搭建与端实现（UniApp + Vue3）
+# 实验01 · 移动开发环境搭建与端实现（UniApp + Vue3）
 
 > 课程：移动应用开发　实验：01　主攻框架：**UniApp（Vue3 + Vite）**
 > 一句话：用一套 Vue3 代码，同时编译到 H5 / 微信小程序 / Android·iOS App 三端，并用**声明式 UI**写出第一个 Hello World 页面。
+> 仓库：<https://github.com/colacolaco/exp01-uniapp-hello>
 
 ![运行效果](docs/screenshots/h5-mobile.png)
 
@@ -123,8 +124,8 @@ const greeting = computed(() => nickname.value ? `你好，${nickname.value}！`
 | 声明式 UI 写 Hello World 页面 | ✅ `src/pages/index/index.vue`，状态/绑定/事件/条件/列表五类语法 |
 | 运行到目标端 | ✅ H5 端实测运行并截图（`docs/screenshots/`） |
 | 体会三框架"一套思想、三种长相" | ✅ 见 `docs/实验报告.md` 第三节 |
-| 用版本控制提交到 Gitee / GitHub | ✅ 本地 Git 仓库已初始化并提交，推送步骤见 `docs/提交说明.md` |
-| 附仓库链接 | ⬜ 需你推送后把链接填到 `docs/提交说明.md` 与答题框 |
+| 用版本控制提交到 Gitee / GitHub | ✅ 已初始化 Git 并推送到 GitHub：<https://github.com/colacolaco/exp01-uniapp-hello> |
+| 附仓库链接 | ✅ 见上方仓库地址；Gitee 如需补推见 `docs/提交说明.md` |
 
 ## 七、常见问题
 
